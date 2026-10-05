@@ -1,0 +1,96 @@
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background: #f4f6f8;
+  color: #222;
+}
+
+/* Main Navbar */
+body > div > nav {
+  background: #1e293b;
+  padding: 18px 30px;
+  display: flex;
+  gap: 10px;
+}
+
+body > div > nav a {
+  color: white;
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: 500;
+  padding: 8px 14px;
+  border-radius: 6px;
+  transition: 0.3s;
+}
+
+body > div > nav a:hover {
+  background: #334155;
+}
+
+/* Dashboard */
+.dashboard {
+  max-width: 1000px;
+  margin: 40px auto;
+  background: white;
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 4px 15px rgba(92, 2, 2, 0.08);
+}
+
+.dashboard h1 {
+  margin-bottom: 20px;
+  color: #1e293b;
+}
+
+/* Dashboard Navigation */
+.dashboard nav {
+  display: flex;
+  justify-content: space-between;
+  gap: 50px;
+  margin-bottom: 20px;
+  flex-wrap: wrap;
+}
+
+/* Horizontal line */
+hr {
+  border: none;
+  border-top: 1px solid #e2e8f0;
+  margin: 20px 0;
+}
+
+/* Pages */
+.dashboard h2 {
+  color: #2563eb;
+  margin-bottom: 10px;
+}
+
+.dashboard p {
+  color: #64748b;
+  font-size: 16px;
+  line-height: 1.6;
+}
+
+/* Home Page */
+body > div > div:not(.dashboard) {
+  max-width: 1000px;
+  margin: 40px auto;
+  background: white;
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
+}
+
+body > div > div:not(.dashboard) h2 {
+  color: #2563eb;
+  margin-bottom: 10px;
+}
+
+body > div > div:not(.dashboard) p {
+  color: #64748b;
+}
